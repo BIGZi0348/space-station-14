@@ -194,10 +194,13 @@ public sealed class ServerSedativeStingSystem : EntitySystem
 
         var removedSolution = _solutionContainers.Draw(target.Owner, targetSolution, realTransferAmount);
 
-        if (!_solutionContainers.TryAddSolution(soln.Value, removedSolution))
+        var reagentPrototypes = removedSolution.GetReagentPrototypes(_prototypeManager);
+
+        if (reagentPrototypes.Count == 0)
             return false;
 
-        var reagentPrototypes = removedSolution.GetReagentPrototypes(_prototypeManager);
+        if (!_solutionContainers.TryAddSolution(soln.Value, removedSolution))
+            return false;
 
         _popup.PopupEntity(Loc.GetString("injector-component-draw-better-success-message",
             ("amount", removedSolution.Volume),
