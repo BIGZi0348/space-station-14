@@ -95,14 +95,14 @@ public abstract class SharedRatKingSystem : EntitySystem
     }
 
     //SS220 rat servant fix begin
-    private void OnServantDie(EntityUid uid, RatKingServantComponent component, MobStateChangedEvent args)
+    private void OnServantDie(Entity<RatKingServantComponent> servant, ref MobStateChangedEvent args)
     {
         if (args.NewMobState != MobState.Dead)
             return;
 
-        EnsureComp<ItemComponent>(uid);
+        EnsureComp<ItemComponent>(servant.Owner);
 
-        _tagSystem.AddTag(uid, TrashTag);
+        _tagSystem.AddTag(servant.Owner, TrashTag);
     }
     //SS220 rat servant fix end
 
