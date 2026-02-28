@@ -21,6 +21,7 @@ using Content.Shared.SS220.CultYogg.SedativeSting;
 using Content.Shared.Timing;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Server.Audio;
+using Robust.Shared.Prototypes;
 using System.Linq;
 
 namespace Content.Server.SS220.CultYogg.SedativeSting;
@@ -34,6 +35,7 @@ public sealed class ServerSedativeStingSystem : EntitySystem
     [Dependency] private readonly ReactiveSystem _reactiveSystem = default!;
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InventorySystem _inventory = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
     public override void Initialize()
     {
@@ -195,9 +197,11 @@ public sealed class ServerSedativeStingSystem : EntitySystem
         if (!_solutionContainers.TryAddSolution(soln.Value, removedSolution))
             return false;
 
+        var reagentPrototypes = removedSolution.GetReagentPrototypes(_prototypeManager);
+
         _popup.PopupEntity(Loc.GetString("injector-component-draw-better-success-message",
             ("amount", removedSolution.Volume),
-            ("reagent", removedSolution.Contents[0].Reagent),
+            ("reagent", reagentPrototypes.First().Key.LocalizedName),
             ("target", Identity.Entity(target, EntityManager))),
             entity.Owner,
             user);
