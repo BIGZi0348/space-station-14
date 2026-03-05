@@ -29,3 +29,7 @@ job-name-security-pet = Рокси
 job-name-aggressive-animals = агрессивная фауна
 
 job-name-space-dragon = { roles-antag-dragon-name }
+
+job-name-syndicate-borg = киборг Синдиката
+
+job-name-syndicate-reinforcement = подкрепление Синдиката
