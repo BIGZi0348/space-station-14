@@ -25,7 +25,7 @@
     allowSpeech: true
     allowMovement: true
     name: "Рокси"
-    description: "Собака службы безопасности. Издевайтесь над офицерами, чтобы погладить их по голове и преследовать жестоких преступников по пятам"
+    description: "Собака службы безопасности. Издевайтесь над офицерами, чтобы погладить их по голове и преследовать жестоких преступников по пятам."
     job: SecurityPet
   - type: GhostTakeoverAvailable
   - type: InteractionPopup
