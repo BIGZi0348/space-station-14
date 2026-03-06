@@ -24,8 +24,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: job-name-security-pet
-    description: job-description-security-pet
+    name: ghost-role-information-security-pet-Roxi-name
+    description: ghost-role-information-security-pet-Roxi-description
     job: SecurityPet
   - type: GhostTakeoverAvailable
   - type: InteractionPopup

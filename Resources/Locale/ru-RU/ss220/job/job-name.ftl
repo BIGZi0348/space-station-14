@@ -24,7 +24,7 @@ job-name-dq-specialist = специалист Эскадрона Смерти
 
 job-name-migo = Ми-Го
 
-job-name-security-pet = Рокси
+job-name-security-pet = питомец службы безопасности
 
 job-name-aggressive-animals = агрессивная фауна
 
