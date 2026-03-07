@@ -69,7 +69,7 @@ public sealed class ChargerSystem : SharedChargerSystem
                 {
                     // SS220 battery fix begin
                     // * В апстриме виздены полностью перелопатили батареи.
-                    // * Этот костыль при обновлении можно смело заменять,
+                    // * Этот костыль при обновлении можно смело заменять.
                     if (!SearchForBattery(contained, out var _, out var battery))
                         continue;
 
