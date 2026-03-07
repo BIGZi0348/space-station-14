@@ -67,9 +67,13 @@ public sealed class ChargerSystem : SharedChargerSystem
                 // add how much each item is charged it
                 foreach (var contained in container.ContainedEntities)
                 {
-                    if (!TryComp<BatteryComponent>(contained, out var battery))
+                    // SS220 battery fix begin
+                    // * В апстриме виздены полностью перелопатили батареи.
+                    // * Этот костыль при обновлении можно смело удалять,
+                    // * но не забыть поменять локали с chargePercentage на chargePercent
+                    if (!SearchForBattery(contained, out var _, out var battery))
                         continue;
-
+                    // SS220 battery fix end
                     var chargePercentage = (battery.CurrentCharge / battery.MaxCharge) * 100;
                     args.PushMarkup(Loc.GetString("charger-content", ("chargePercentage", (int)chargePercentage)));
                 }
