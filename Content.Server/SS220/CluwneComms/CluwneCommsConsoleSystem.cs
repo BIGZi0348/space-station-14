@@ -160,7 +160,7 @@ public sealed class CluwneCommsConsoleSystem : EntitySystem
         title ??= ent.Comp.Title;
 
         msg = _chatManager.DeleteProhibitedCharacters(msg, args.Actor);
-        msg += "\n" + Loc.GetString("cluwne-comms-console-announcement-sent-by") + author;
+        msg += "\n" + Loc.GetString("cluwne-comms-console-announcement-sent-by") + " " + author;
 
         _chatSystem.DispatchStationAnnouncement(ent,
             msg,
