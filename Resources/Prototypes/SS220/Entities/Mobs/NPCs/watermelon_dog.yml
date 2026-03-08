@@ -94,7 +94,7 @@
     - NanoTrasen
   - type: HTN
     rootTask:
-      task: WatermwlonDogCompound
+      task: WatermelonDogCompound
   - type: NPCImprintingOnSpawnBehaviour
     whitelist:
       components:

@@ -28,7 +28,7 @@
         task: IdleCompound
 
 - type: htnCompound
-  id: WatermwlonDogCompound
+  id: WatermelonDogCompound
   branches:
     - tasks:
         - !type:HTNCompoundTask
