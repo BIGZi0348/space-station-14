@@ -168,7 +168,7 @@
   - type: PotencyVisuals
   - type: Appearance
   - type: Produce
-    seedId: killerTomato # TODO
+    seedId: watermelondog
   - type: IgnoreKudzu
   - type: Puller
     needsHands: false
