@@ -108,6 +108,16 @@
     - AdditionalClown
 
 - type: listing
+  id: PigrenadeSet
+  name: uplink-clown-pigrenade-name
+  description: uplink-clown-pigrenade-desc
+  productEntity: pigrenade
+  cost:
+    TrashBananaPeel: 50
+  categories:
+    - AdditionalClown
+
+- type: listing
   id: SoapOmegaSet
   name: uplink-clown-omegasoap-name
   description: uplink-clown-omegasoap-desc
