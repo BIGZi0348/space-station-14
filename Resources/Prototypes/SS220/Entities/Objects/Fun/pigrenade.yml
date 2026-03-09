@@ -41,7 +41,7 @@
 - type: entity
   parent: MobPig
   id: MobPigrenadeScatter
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn
     lifetime: 8
