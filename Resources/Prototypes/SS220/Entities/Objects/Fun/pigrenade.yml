@@ -58,7 +58,3 @@
   components:
   - type: ScatteringGrenade
     fillPrototype: MobPig
-    randomDistance: true
-    randomThrowDistanceMax: 5
-    capacity: 6
-    velocity: 2
