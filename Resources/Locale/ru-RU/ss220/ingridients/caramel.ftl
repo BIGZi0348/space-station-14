@@ -15,3 +15,10 @@ ent-CaramelCaneGreenRedFood = красно-зелёная карамельная
 
 ent-DoubleCaramelCaneFood = двойная карамельная трость
     .desc = Устройте дуель!
+
+GreenCaramelRoosterFood = зелёный карамельный петушок
+    .desc = На вкус как приятная кислинка.
+RedCaramelRoosterFood = красный карамельный петушок
+    .desc = На вкус как сладкие ягоды.
+YellowCaramelRoosterFood = жёлтый карамельный петушок
+    .desc = На вкус не похоже на курицу.
