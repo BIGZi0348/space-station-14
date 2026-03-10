@@ -55,16 +55,27 @@
     FoodCabbage: 1
 
 - type: microwaveMealRecipe
+  id: RecipeFoodMealFriedegg
+  name: RecipeFoodMealFriedegg
+  result: FoodMealFriedegg
+  time: 15
+  reagents:
+    Egg: 12
+    TableSalt: 5
+    Blackpepper: 5
+
+- type: microwaveMealRecipe
   id: RecipeOkroshka
   name: Okroshka recipe
   result: FoodSoupOkroshka
   time: 10
+  reagents:
+    EggCooked: 6
   solids:
     FoodBowlBig: 1
     FoodMeatChicken: 1
     FoodPotato: 1
     FoodOnionSlice: 1
-    FoodEggBoiled: 1
 
 - type: microwaveMealRecipe
   id: RecipeOkroshkaKvass
@@ -73,12 +84,12 @@
   time: 10
   reagents:
     Kvass: 10
+    EggCooked: 6
   solids:
     FoodBowlBig: 1
     FoodMeatChicken: 1
     FoodPotato: 1
     FoodOnionSlice: 1
-    FoodEggBoiled: 1
 
 - type: microwaveMealRecipe
   id: RecipeVinaigrette
