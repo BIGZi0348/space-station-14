@@ -2,7 +2,7 @@
 
 - type: entity
   parent: ScatteringGrenadeBase
-  id: pigrenade
+  id: Pigrenade
   name: pigrenade
   description: Grenade that creates a small but devastating oink.
   components:
@@ -52,8 +52,8 @@
     prototype: PuddleSparkle
 
 - type: entity
-  parent: pigrenade
-  id: pigrenadeAdmeme
+  parent: Pigrenade
+  id: PigrenadeAdmeme
   suffix: Pigs stay
   components:
   - type: ScatteringGrenade

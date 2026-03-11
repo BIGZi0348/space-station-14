@@ -1,6 +1,6 @@
-ent-pigrenade = хряконата
+ent-Pigrenade = хряконата
     .desc = Граната, создающая небольшой, но разрушительный хрюк. Примечание: свиньи как настоящие.
-ent-pigrenadeAdmeme = { ent-pigrenade }
+ent-PigrenadeAdmeme = { ent-pigrenade }
     .desc = Граната, создающая небольшой, но разрушительный хрюк. Примечание: свиньи настоящие.
     .suffix = Свиньи навсегда
 ent-MobPigrenadeScatter = { ent-MobPig }
