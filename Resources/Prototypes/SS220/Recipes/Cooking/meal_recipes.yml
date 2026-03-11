@@ -56,7 +56,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFoodMealFriedegg
-  name: RecipeFoodMealFriedegg
+  name: Friedegg recipe
   result: FoodMealFriedegg
   time: 15
   reagents:

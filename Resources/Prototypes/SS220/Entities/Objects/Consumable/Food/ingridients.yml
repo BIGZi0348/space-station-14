@@ -144,7 +144,7 @@
   name: green caramel rooster
   parent: FoodBakingBase
   id: GreenCaramelRoosterFood
-  description: There is a pleasent sourness.
+  description: There is a pleasant sourness.
   components:
   - type: Sprite
     sprite: SS220/Objects/Consumable/Food/caramel_rooster.rsi
