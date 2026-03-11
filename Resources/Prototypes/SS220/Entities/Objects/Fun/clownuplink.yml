@@ -111,7 +111,7 @@
   id: PigrenadeSet
   name: uplink-clown-pigrenade-name
   description: uplink-clown-pigrenade-desc
-  productEntity: pigrenade
+  productEntity: Pigrenade
   cost:
     TrashBananaPeel: 50
   categories:
