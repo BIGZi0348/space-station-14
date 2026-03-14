@@ -393,6 +393,10 @@
   id: RandomToyWeaponsBundleSpawner
   name: Random Toy Weapons Bundle Spawner
   components:
+  - type: Sprite
+    sprite: SS220/Objects/Weapons/Guns/Revolvers/toy.rsi
+    layers:
+    - state: base
   - type: RandomSpawner
     prototypes:
       - ClothingBackpackDuffelSyndicateFilledShotgunToy
@@ -411,6 +415,10 @@
   id: RandomFakeSyndieHardsuitSpawner
   name: Random Fake Syndie Hardsuit Spawner
   components:
+  - type: Sprite
+    sprite: SS220/Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    layers:
+    - state: icon
   - type: RandomSpawner
     prototypes:
       - ClothingOuterHardsuitSyndieFake

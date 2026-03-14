@@ -122,9 +122,6 @@
   name: uplink-clown-toy-weapons-bundle-name
   description: uplink-clown-toy-weapons-bundle-desc
   productEntity: RandomToyWeaponsBundleSpawner
-  icon:
-    sprite: SS220/Objects/Weapons/Guns/Revolvers/toy.rsi
-    state: base
   cost:
     TrashBananaPeel: 200
   categories:
@@ -138,9 +135,6 @@
   name: uplink-clown-fake-syndie-hardsuits-name
   description: uplink-clown-fake-syndie-hardsuits-desc
   productEntity: RandomFakeSyndieHardsuitSpawner
-  icon:
-    sprite: SS220/Clothing/OuterClothing/Hardsuits/syndicate.rsi
-    state: icon
   cost:
     TrashBananaPeel: 150
   categories:
