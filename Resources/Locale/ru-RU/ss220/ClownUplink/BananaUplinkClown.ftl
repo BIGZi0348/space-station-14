@@ -54,5 +54,5 @@ ent-ClownUplink = бананафон
     .desc = Прямая связь с Великой Хонк-Матерью. Ответственный клоун временно отсутствует — оставьте кожуру после сигнала.
     .suffix = Аплинк Клоун
 ent-ClownUplinkDebug = { ent-ClownUplink }
-    .desc = { ent-ent-ClownUplink.desc }
+    .desc = { ent-ClownUplink.desc }
     .suffix = Аплинк Клоун, DEBUG
