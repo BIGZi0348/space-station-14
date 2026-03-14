@@ -129,6 +129,9 @@
     TrashBananaPeel: 200
   categories:
     - AdditionalClown
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 2
 
 - type: listing
   id: FakeSyndieHardsuitsSet
@@ -142,6 +145,9 @@
     TrashBananaPeel: 150
   categories:
     - AdditionalClown
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 2
 
 - type: listing
   id: CluwneCommsComputerCircuitboardUnconvertible
@@ -152,6 +158,9 @@
     TrashBananaPeel: 250
   categories:
     - AdditionalClown
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
 
 - type: listing
   id: SoapOmegaSet
