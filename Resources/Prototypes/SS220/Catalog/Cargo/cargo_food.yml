@@ -37,13 +37,3 @@
   cost: 2500
   category: cargoproduct-category-name-food
   group: market
-
-- type: cargoProduct
-  id: WaterCooler
-  icon:
-    sprite: Structures/Storage/tanks.rsi
-    state: watercooler
-  product: WaterCooler
-  cost: 1000
-  category: cargoproduct-category-name-food
-  group: market
